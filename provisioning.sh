@@ -22,3 +22,5 @@ cd webdis
 make
 ./webdis &
 
+chkconfig iptables off
+service iptables stop
